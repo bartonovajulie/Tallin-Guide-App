@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="com.example.android.tallinnguideapp.MainActivity">
+
+        <!-- Main Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_image_height"
+            android:layout_weight="@integer/main_image_weight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tallinn" />
+
+        <!-- Kadriorg Category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_kadriorg">
+
+            <TextView
+                android:id="@+id/kadriorg"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_kadriorg" />
+        </FrameLayout>
+
+        <!-- Nomme Category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_nomme">
+
+            <TextView
+                android:id="@+id/nomme"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_nomme" />
+        </FrameLayout>
+
+        <!-- City Centre Category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_city_centre">
+
+            <TextView
+                android:id="@+id/city_centre"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_city_centre" />
+        </FrameLayout>
+
+        <!-- Old Town Category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_old_town">
+
+            <TextView
+                android:id="@+id/old_town"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_old_town" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

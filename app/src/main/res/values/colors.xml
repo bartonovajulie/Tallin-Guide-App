@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#AD1457</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#880E4F</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the kadriorg category -->
+    <color name="category_kadriorg">#880E4F</color>
+
+    <!-- Background color for the nomme category -->
+    <color name="category_nomme">#757575</color>
+
+    <!-- Background color for the city center category -->
+    <color name="category_city_centre">#880E4F</color>
+
+    <!-- Background color for the old town category -->
+    <color name="category_old_town">#757575</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Weight of main image -->
+    <integer name="main_image_weight">1</integer>
+    <!-- Weight of list text view -->
+    <integer name="list_text_view_weight">1</integer>
+</resources>

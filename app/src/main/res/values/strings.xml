@@ -1,0 +1,16 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tallinn Guide App</string>
+
+    <!-- Category name for Old Town [CHAR LIMIT=20] -->
+    <string name="category_old_town">Old Town</string>
+
+    <!-- Category name for the City Centre [CHAR LIMIT=20] -->
+    <string name="category_city_centre">City Centre</string>
+
+    <!-- Category name for Kadriorg [CHAR LIMIT=20] -->
+    <string name="category_kadriorg">Kadriorg</string>
+
+    <!-- Category name for Nõmme [CHAR LIMIT=20] -->
+    <string name="category_nomme">Nõmme</string>
+</resources>
