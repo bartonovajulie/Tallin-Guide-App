@@ -17,10 +17,10 @@ public class OldTownActivity extends AppCompatActivity {
         // Create a list of places
         final ArrayList<com.example.android.tallinnguideapp.Place> places = new ArrayList<com.example.android.tallinnguideapp.Place>();
 
-        places.add(new com.example.android.tallinnguideapp.Place("Tallinn Town Hall", "Nothing says power like the impressive, Gothic Town Hall that dominates medieval Tallinn\'s main square.", R.drawable.town_hall));
-        places.add(new com.example.android.tallinnguideapp.Place("St. Catherine\'s Passage", "Easily the most picturesque of Old Town\'s lanes, this half-hidden walkway runs behind what used to be St. Catherine's Church.", R.drawable.passage));
-        places.add(new com.example.android.tallinnguideapp.Place("Toompea Castle", "Perched on a limestone cliff and towering over the rest of the city, Toompea Castle has always been the seat of power in Estonia.", R.drawable.toompea_castle));
-        places.add(new com.example.android.tallinnguideapp.Place("St. Alexander Nevsky Cathedral", "This spectacular, onion-domed structure perched atop Toompea Hill is Estonia\'s main Russian Orthodox cathedral.", R.drawable.nevsky_cathedral));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.town_hall), getString(R.string.town_hall_description), R.drawable.town_hall));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.catherine_passage), getString(R.string.catherine_passage_description), R.drawable.passage));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.toompea_castle), getString(R.string.toompea_castle_description), R.drawable.toompea_castle));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.nevsky_cathedral), getString(R.string.nevsky_cathedral_description), R.drawable.nevsky_cathedral));
 
         // set background
         com.example.android.tallinnguideapp.PlaceAdapter adapter =

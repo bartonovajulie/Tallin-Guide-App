@@ -17,10 +17,10 @@ public class NommeActivity extends AppCompatActivity {
         // Create a list of places
         final ArrayList<com.example.android.tallinnguideapp.Place> places = new ArrayList<com.example.android.tallinnguideapp.Place>();
 
-        places.add(new com.example.android.tallinnguideapp.Place("Glehn Park", "The park around Glehn\'s Castle in the Nõmme suburb is popular for walking, star gazing and winter skiing.", R.drawable.glehn_park));
-        places.add(new com.example.android.tallinnguideapp.Place("Glehn\'s Castle", "Built by Nikolai von Glehn in 1886 and set a forested park, this castle provides a perfect escape from city centre bustle.", R.drawable.glehn_castle));
-        places.add(new com.example.android.tallinnguideapp.Place("Glehn\'s Cemetery", "Find this family cemetery on the former estate of Nikolai von Glehn.", R.drawable.glehn_cemetry));
-        places.add(new com.example.android.tallinnguideapp.Place("Nõmme Market", "Nõmme Market is a colourful market bulging with domestic products.", R.drawable.nomme_market));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.glehn_park), getString(R.string.glehn_park_description), R.drawable.glehn_park));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.glehn_castle), getString(R.string.glehn_castle_description), R.drawable.glehn_castle));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.glehn_cemetry), getString(R.string.glehn_cemetry_description), R.drawable.glehn_cemetry));
+        places.add(new com.example.android.tallinnguideapp.Place(getString(R.string.nomme_market), getString(R.string.nomme_market_description), R.drawable.nomme_market));
 
         // set background
         com.example.android.tallinnguideapp.PlaceAdapter adapter =

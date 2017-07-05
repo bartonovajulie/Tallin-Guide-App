@@ -13,4 +13,57 @@
 
     <!-- Category name for Nõmme [CHAR LIMIT=20] -->
     <string name="category_nomme">Nõmme</string>
+
+    <!-- City Centre -->
+    <string name="freedom_square">Freedom Square</string>
+    <string name="freedom_square_description">This open area at the edge of Old Town is a place of national symbolism and civic pride.</string>
+
+    <string name="charles_church">Charles XI Lutheran Church</string>
+    <string name="charles_church_description">Tallinn\'s grandest 19th-century church sets itself apart with its twin steeples, immense size and neo-Roman style.</string>
+
+    <string name="john_church">St. John\'s Church</string>
+    <string name="john_church_description">The bright yellow, neo-Gothic church that dominates Freedom Square is a true survivor among the city\'s churches.</string>
+
+    <string name="kiek_kok">Kiek in de Kök</string>
+    <string name="kiek_kok_description">This massive, 38m-high cannon tower houses an extensive museum of the town\'s fortifications, weapons and medieval-era life.</string>
+
+    <!-- Kadriorg -->
+    <string name="kardiorg_museum">Kadriorg Art Museum</string>
+    <string name="kardiorg_museum_description">This grand, baroque palace built for Peter the Great in 1718 now houses the Art Museum of Estonia\'s foreign collection.</string>
+
+    <string name="kardiorg_park">Kadriorg Park</string>
+    <string name="kardiorg_park_description">This vast park surrounding Kadriorg Palace is without a doubt the best place in town for relaxed strolling.</string>
+
+    <string name="kumu_museum">Kumu Art Museum</string>
+    <string name="kumu_museum_description">By far the nation\'s largest and most cutting-edge art museum.</string>
+
+    <string name="russalka">Russalka</string>
+    <string name="russalka_description">This striking monument on Kadriorg\’s shore is a memorial to those lost when armoured ship Russalka sank in 1893.</string>
+
+    <!-- Nomme -->
+    <string name="glehn_park">Glehn Park</string>
+    <string name="glehn_park_description">The park around Glehn\'s Castle in the Nõmme suburb is popular for walking, star gazing and winter skiing.</string>
+
+    <string name="glehn_castle">Glehn\'s Castle</string>
+    <string name="glehn_castle_description">Built by Nikolai von Glehn in 1886 and set a forested park, this castle provides a perfect escape from city centre bustle.</string>
+
+    <string name="glehn_cemetry">Glehn\'s Cemetery</string>
+    <string name="glehn_cemetry_description">Find this family cemetery on the former estate of Nikolai von Glehn.</string>
+
+    <string name="nomme_market">Nõmme Market</string>
+    <string name="nomme_market_description">Nõmme Market is a colourful market bulging with domestic products.</string>
+
+    <!-- Old Town -->
+    <string name="town_hall">Tallinn Town Hall</string>
+    <string name="town_hall_description">Nothing says power like the impressive, Gothic Town Hall that dominates medieval Tallinn\'s main square.</string>
+
+    <string name="catherine_passage">St. Catherine\'s Passage</string>
+    <string name="catherine_passage_description">Easily the most picturesque of Old Town\'s lanes, this half-hidden walkway runs behind what used to be St. Catherine\'s Church.</string>
+
+    <string name="toompea_castle">Toompea Castle</string>
+    <string name="toompea_castle_description">Perched on a limestone cliff and towering over the rest of the city, Toompea Castle has always been the seat of power in Estonia.</string>
+
+    <string name="nevsky_cathedral">St. Alexander Nevsky Cathedral</string>
+    <string name="nevsky_cathedral_description">This spectacular, onion-domed structure perched atop Toompea Hill is Estonia\'s main Russian Orthodox cathedral.</string>
+
 </resources>
